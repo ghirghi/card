@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Josué Rafael Ghirghi</title>
+  <meta name="description" content="Professional profile for Josué Rafael Ghirghi — Production Engineering student focused on agricultural markets, telemetry, precision agriculture, and operational data systems." />
+
+  <style>
+    :root {
+      --bg: #0b1120;
+      --card: rgba(15, 23, 42, 0.92);
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent2: #22c55e;
+      --border: rgba(255,255,255,0.09);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background:
+        radial-gradient(circle at top left, rgba(56,189,248,0.15), transparent 30%),
+        radial-gradient(circle at bottom right, rgba(34,197,94,0.12), transparent 30%),
+        var(--bg);
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+    }
+
+    .container {
+      width: 100%;
+      max-width: 520px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 30px;
+      padding: 34px;
+      backdrop-filter: blur(14px);
+      box-shadow: 0 30px 80px rgba(0,0,0,0.45);
+    }
+
+    .top {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 28px;
+    }
+
+    .logo {
+      width: 78px;
+      height: 78px;
+      border-radius: 24px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: 800;
+      color: #020617;
+      flex-shrink: 0;
+    }
+
+    h1 {
+      font-size: 32px;
+      line-height: 1.05;
+      letter-spacing: -0.05em;
+      margin-bottom: 6px;
+    }
+
+    .role {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .section {
+      margin-bottom: 24px;
+    }
+
+    .section-title {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--accent);
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+
+    .about {
+      color: #dbeafe;
+      line-height: 1.7;
+      font-size: 15px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      padding: 10px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+      font-size: 13px;
+    }
+
+    .links {
+      display: grid;
+      gap: 12px;
+    }
+
+    .link {
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.04);
+      padding: 16px;
+      border-radius: 18px;
+      transition: 0.18s ease;
+    }
+
+    .link:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+      background: rgba(56,189,248,0.08);
+    }
+
+    .link strong {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 15px;
+    }
+
+    .link span {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .cta {
+      margin-top: 30px;
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 26px;
+      }
+
+      .top {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+
+    <section class="top">
+      <div class="logo">JG</div>
+
+      <div>
+        <h1>Josué Rafael Ghirghi</h1>
+
+        <p class="role">
+          Production Engineering Student<br>
+          Agricultural Markets • Precision Agriculture • Operational Systems
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Profile</div>
+
+      <p class="about">
+        Focused on agricultural operations, telemetry infrastructure, embedded sensing systems, and data-driven decision support. Developing practical systems involving ESP32 telemetry, agricultural sensor networks, operational dashboards, and yield data analysis applied to farm environments.
+      </p>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Technical Areas</div>
+
+      <div class="skills">
+        <span class="skill">ESP32 Telemetry Systems</span>
+        <span class="skill">Agricultural Sensor Networks</span>
+        <span class="skill">Yield Map Analysis</span>
+        <span class="skill">Operational Dashboards</span>
+        <span class="skill">Data Acquisition Systems</span>
+        <span class="skill">Embedded Systems</span>
+        <span class="skill">Farm Data Infrastructure</span>
+        <span class="skill">Precision Agriculture</span>
+        <span class="skill">Operational Optimization</span>
+        <span class="skill">Agricultural Markets</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Contact</div>
+
+      <div class="links">
+        <a class="link" href="tel:+5515997579555">
+          <strong>Phone / WhatsApp</strong>
+          <span>+55 15 99757-9555</span>
+        </a>
+
+        <a class="link" href="mailto:ghirghijosue@gmail.com">
+          <strong>Email</strong>
+          <span>ghirghijosue@gmail.com</span>
+        </a>
+
+        <a class="link" href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" rel="noopener noreferrer">
+          <strong>LinkedIn</strong>
+          <span>Professional profile</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="cta">
+      Seeking internship opportunities involving agricultural markets, operational systems, commercial strategy, telemetry infrastructure, and technology-driven optimization.
+    </section>
+
+  </main>
+</body>
+</html>
